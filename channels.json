@@ -63,11 +63,11 @@
         "id":"skai",
         "title":"Skai",
         "type":"grab",
-        "sourceUrl":"http://www.skaitv.gr/json/settings.php",
+        "sourceUrl":"http://www.skaitv.gr/live",
         "epgId":"Skai.gr",
         "grabber":{
             "type":"regex",
-            "value":"(?<=\"live_url\":\").*?(?=\")",
+            "value":"(?<=watch\\?v=).*?(?=\")",
             "result":"youtubeid"
         }
     },
