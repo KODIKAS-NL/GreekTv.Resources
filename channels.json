@@ -43,7 +43,7 @@
         "id":"ert3",
         "title":"Ert 3",
         "type":"grab",
-        "sourceUrl":"https://webtv.ert.gr/webtv/ert/tv/live-glm/ert3.html",
+        "sourceUrl":"https://webtv.ert.gr/webtv/ert/tv/ytb/ert3_ipinfo-geo_20191010.html",
         "epgId":"EPT3.gr",
         "grabber":{
             "type":"cssQuery",
@@ -94,11 +94,11 @@
         "id":"ertworld",
         "title":"Ert World",
         "type":"grab",
-        "sourceUrl":"https://webtv.ert.gr/webtv/ert/tv/ytb/ertworld_201907.html",
+        "sourceUrl":"https://webtv.ert.gr/webtv/ert/tv/ytb/ertworld_201910.html",
         "epgId":"ERTWorld.gr",
         "grabber":{
             "type":"cssQuery",
-            "value":"iframe",
+            "value":".embed-container iframe",
             "selector":{
                 "type":"attribute",
                 "value":"src"
