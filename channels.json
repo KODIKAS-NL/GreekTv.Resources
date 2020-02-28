@@ -92,8 +92,8 @@
         "epgId":"Skai.gr",
         "grabber":{
             "type":"regex",
-            "value":"(?<=watch\\?v=).*?(?=\")",
-            "result":"youtubeid"
+            "value":"(?<=\"livestream\":\").*\\.m3u8",
+            "result":"url"
         }
     },
     {
