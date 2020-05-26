@@ -92,7 +92,7 @@
         "epgId":"Skai.gr",
         "grabber":{
             "type":"regex",
-            "value":"(?<=watch\\?v=).*(?=\\\")",
+            "value":"(?<=watch\\?v=).*?(?=\\\")",
             "result":"youtubeid"
         }
     },
