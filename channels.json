@@ -118,8 +118,8 @@
     {
         "id":"ertworld",
         "title":"Ert World",
-        "type":"grab",
-        "sourceUrl":"https://webtv.ert.gr/webtv/ert/tv/ytb/ertworld_201910.html",
+        "type":"raw",
+        "sourceUrl":"https://ert-live.siliconweb.com/media/ert_world/ert_world.m3u8",
         "epgId":"ERTWorld.gr",
         "grabber":{
             "type":"cssQuery",
