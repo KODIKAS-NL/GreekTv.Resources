@@ -88,7 +88,7 @@
         "id":"skai",
         "title":"Skai",
         "type":"grab",
-        "sourceUrl":"http://www.skaitv.gr/live",
+        "sourceUrl":"https://www.skaitv.gr/live",
         "epgId":"Skai.gr",
         "grabber":{
             "type":"regex",
@@ -100,7 +100,7 @@
         "id":"alpha",
         "title":"Alpha",
         "type":"grab",
-        "sourceUrl":"http://www.alphatv.gr/webtv/live",
+        "sourceUrl":"https://www.alphatv.gr/webtv/live",
         "epgId":"alpha.gr",
         "grabber":{
             "type":"regex",
@@ -145,6 +145,18 @@
             "type":"regex",
             "value":"https:.*\\.m3u8",
             "result":"url"
+        }
+    },
+    {
+        "id":"bluesky",
+        "title":"BlueSky",
+        "type":"grab",
+        "sourceUrl":"https://blueskytv.gr/live-tv/",
+        "epgId":"BlueSky.gr",
+        "grabber":{
+            "type":"regex",
+            "value":"(?<=youtube\\.com\\/embed\\/).*?(?=\\?)",
+            "result":"youtubeid"
         }
     }
 ]
