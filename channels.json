@@ -165,5 +165,17 @@
         "type":"raw",
         "epgId":"RIKsat.cy",
         "sourceUrl":"https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8"
+    },
+    {
+        "id":"euronews",
+        "title":"EuroNews",
+        "type":"grab",
+        "sourceUrl":"https://gr.euronews.com/live",
+        "epgId":"euronews.gr",
+        "grabber":{
+            "type":"regex",
+            "value":"(?<=youtube\\.com\\/embed\\/).*?(?=\\?)",
+            "result":"youtubeid"
+        }
     }
 ]
