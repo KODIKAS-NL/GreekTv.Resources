@@ -87,8 +87,8 @@
     {
         "id":"skai",
         "title":"Skai",
-        "type":"grab",
-        "sourceUrl":"https://www.skaitv.gr/live",
+        "type":"raw",
+        "sourceUrl":"https://skai-live.siliconweb.com/media/cambria2/index.m3u8",
         "epgId":"Skai.gr",
         "grabber":{
             "type":"regex",
