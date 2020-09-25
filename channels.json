@@ -3,7 +3,7 @@
         "id":"ert1",
         "title":"Ert 1",
         "type":"raw",
-        "sourceUrl":"https://ert-live.siliconweb.com/media/ert_1/ert_1.m3u8",
+        "sourceUrl":"https://ert-live-bcbs15228.siliconweb.com/media/ert_1_ww/ert_1_ww.m3u8",
         "epgId":"EPT1.gr",
         "grabber":{
             "type":"cssQuery",
@@ -23,7 +23,7 @@
         "id":"ert2",
         "title":"Ert 2",
         "type":"raw",
-        "sourceUrl":"https://ert-live.siliconweb.com/media/ert_2/ert_2.m3u8",
+        "sourceUrl":"https://ert-live-bcbs15228.siliconweb.com/media/ert_2_ww/ert_2_ww.m3u8",
         "epgId":"EPT2.gr",
         "grabber":{
             "type":"cssQuery",
@@ -119,7 +119,7 @@
         "id":"ertworld",
         "title":"Ert World",
         "type":"raw",
-        "sourceUrl":"https://ert-live.siliconweb.com/media/ert_world/ert_world.m3u8",
+        "sourceUrl":"https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
         "epgId":"ERTWorld.gr",
         "grabber":{
             "type":"cssQuery",
@@ -182,7 +182,7 @@
         "id":"ertsports",
         "title":"Ert Sports",
         "type":"raw",
-        "sourceUrl":"https://ert-live.siliconweb.com/media/ert_sports/ert_sports.m3u8",
+        "sourceUrl":"https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_ww/ert_sports_ww.m3u8",
         "epgId":"EPT-HD.gr"
     }
 ]
