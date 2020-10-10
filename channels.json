@@ -170,12 +170,12 @@
         "id":"euronews",
         "title":"EuroNews",
         "type":"grab",
-        "sourceUrl":"https://gr.euronews.com/live",
+        "sourceUrl":"https://euronews-el-p-api.hexaglobe.net/429c38530dd6af5a2efab9cfc71e3642/5f81ed33/euronews/euronews-euronews-website-web-responsive-2/el/stream_info.php?format=hls",
         "epgId":"euronews.gr",
         "grabber":{
-            "type":"regex",
-            "value":"(?<=data-video-id=\").*?(?=\\\")",
-            "result":"youtubeid"
+             "type":"regex",
+             "value":"(?<=primary\":\").*?(?=\")",
+             "result":"escapedurl"
         }
     },
     {
