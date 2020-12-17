@@ -42,8 +42,8 @@
     {
         "id":"ert3",
         "title":"Ert 3",
-        "type":"grab",
-        "sourceUrl":"https://webtv.ert.gr/webtv/ert/tv/ytb/ert3_ipinfo-geo_20191010.html",
+        "type":"raw",
+        "sourceUrl":"https://ert-live-ert3.siliconweb.com/live/smil:ert3-live.smil/playlist.m3u8",
         "epgId":"EPT3.gr",
         "grabber":{
             "type":"cssQuery",
