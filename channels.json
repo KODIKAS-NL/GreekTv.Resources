@@ -43,7 +43,7 @@
         "id":"ert3",
         "title":"Ert 3",
         "type":"raw",
-        "sourceUrl":"https://ert-live-ert3.siliconweb.com/live/smil:ert3-live.smil/playlist.m3u8",
+        "sourceUrl":"https://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3.m3u8",
         "epgId":"EPT3.gr",
         "grabber":{
             "type":"cssQuery",
