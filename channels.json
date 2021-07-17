@@ -182,7 +182,7 @@
         "id":"ertsports",
         "title":"Ert Sports",
         "type":"raw",
-        "sourceUrl":"https://ert-live-bcbs15228.siliconweb.com/media/ert_sports/ert_sports.m3u8",
+        "sourceUrl":"https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_ww/ert_sports_ww.m3u8",
         "epgId":"EPT-HD.gr"
     }
 ]
