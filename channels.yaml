@@ -1,0 +1,76 @@
+- id: ert1
+  title: Ert 1
+  epgId: EPT1.gr
+  pipeline:
+    - type: url
+      param: https://ert-live-bcbs15228.siliconweb.com/media/ert_1/ert_1.m3u8
+- id: ert2
+  title: Ert 2
+  epgId: EPT2.gr
+  pipeline:
+    - type: url
+      param: https://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2.m3u8
+- id: ert3
+  title: Ert 3
+  epgId: EPT3.gr
+  pipeline:
+    - type: url
+      param: https://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3.m3u8
+- id: skai
+  title: Skai
+  epgId: Skai.gr
+  pipeline:
+    - type: url
+      param: https://skai-live.siliconweb.com/media/cambria4/index.m3u8
+- id: alpha
+  title: Alpha
+  epgId: alpha.gr
+  pipeline:
+    - type: url
+      param: https://www.alphatv.gr/webtv/live
+    - type: source
+    - type: regex
+      param: https:\\/\\/.*m3u8
+- id: ant1
+  title: Ant1
+  epgId: ANT1.gr
+  pipeline:
+    - type: url
+      param: https://antennalivesp-lh.akamaihd.net/i/live_1@715138/master.m3u8
+- id: ertworld
+  title: Ert World
+  epgId: ERTWorld.gr
+  pipeline:
+    - type: url
+      param: https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
+- id: star
+  title: Star
+  epgId: star.gr
+  pipeline:
+    - type: url
+      param: https://www.star.gr/tv/live-stream/
+    - type: source
+    - type: regex
+      param: https:.*\\.m3u8
+- id: riksat
+  title: RikSat
+  epgId: RIKsat.cy
+  pipeline:
+    - type: url
+      param: https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
+- id: euronews
+  title: EuroNews
+  epgId: euronews.gr
+  pipeline:
+    - type: url
+      param: https://gr.euronews.com/api/watchlive.json
+    - type: source
+    - type: regex
+      param: (?<="videoId":").*?(?=")
+    - type: youtubeid
+- id: ertsports
+  title: Ert Sports
+  epgId: EPT-HD.gr
+  pipeline:
+    - type: url
+      param: https://ert-live-bcbs15228.siliconweb.com/media/ert_sports/ert_sports.m3u8
