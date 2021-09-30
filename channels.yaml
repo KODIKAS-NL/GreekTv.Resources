@@ -30,7 +30,7 @@
       param: https://www.alphatv.gr/webtv/live
     - type: source
     - type: regex
-      param: https:\\/\\/.*m3u8
+      param: https:\/\/.*m3u8
 - id: ant1
   title: Ant1
   epgId: ANT1.gr
@@ -51,7 +51,7 @@
       param: https://www.star.gr/tv/live-stream/
     - type: source
     - type: regex
-      param: https:.*\\.m3u8
+      param: https:.*\.m3u8
 - id: riksat
   title: RikSat
   epgId: RIKsat.cy
