@@ -18,13 +18,13 @@
       param: https://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3.m3u8
 - id: skai
   title: Skai
-  epgId: Skai.gr
+  epgId: digea.skai.gr
   pipeline:
     - type: url
       param: https://skai-live.siliconweb.com/media/cambria4/index.m3u8
 - id: alpha
   title: Alpha
-  epgId: alpha.gr
+  epgId: digea.alpha.gr
   pipeline:
     - type: url
       param: https://www.alphatv.gr/webtv/live
@@ -33,19 +33,25 @@
       param: https:\/\/.*m3u8
 - id: ant1
   title: Ant1
-  epgId: ANT1.gr
+  epgId: digea.ant1.gr
   pipeline:
     - type: url
-      param: https://antennalivesp-lh.akamaihd.net/i/live_1@715138/master.m3u8
+      param: https://antennaamdnoenc.akamaized.net/ant1_akamai/abr/playlist.m3u8
+- id: mega
+  title: mega
+  epgId: digea.mega.gr
+  pipeline:
+    - type: url
+      param: https://streamcdnm17-c98db5952cb54b358365984178fb898a.msvdn.net/live/S86713049/gonOwuUacAxM/playlist.m3u8
 - id: ertworld
   title: Ert World
-  epgId: ERTWorld.gr
+  epgId: ert.ertworld.gr
   pipeline:
     - type: url
       param: https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
 - id: star
   title: Star
-  epgId: star.gr
+  epgId: digea.star.gr
   pipeline:
     - type: url
       param: https://www.star.gr/tv/live-stream/
@@ -54,10 +60,16 @@
       param: https:.*\.m3u8
 - id: opentv
   title: opentv
-  epgId: opentv.gr
+  epgId: digea.openbeyond.gr
   pipeline:
     - type: url
       param: https://liveopencloud.siliconweb.com/1/ZlRza2R6L2tFRnFJ/eWVLSlQx/hls/live/playlist.m3u8
+- id: m.tv
+  title: MacedoniaTV
+  epgId: Macedonia.gr
+  pipeline:
+    - type: url
+      param: https://antennaamdnoenc.akamaized.net/maktv_akamai/abr/playlist.m3u8
 - id: riksat
   title: RikSat
   epgId: RIKsat.cy
@@ -66,7 +78,7 @@
       param: https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
 - id: bluesky
   title: BlueSky
-  epgId: BlueSky.gr
+  epgId: digea.bluesky.gr
   pipeline:
     - type: url
       param: https://blueskytv.gr/live-tv/
@@ -86,7 +98,7 @@
       param: qualities.auto.0.url
 - id: euronews
   title: EuroNews
-  epgId: euronews.gr
+  epgId: cyta.euronews.cy
   pipeline:
     - type: url
       param: https://gr.euronews.com/api/watchlive.json
@@ -96,13 +108,13 @@
     - type: youtubeid
 - id: kontra
   title: Kontra
-  epgId: Kontra.gr
+  epgId: digea.kontra.gr
   pipeline:
     - type: url
       param: https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
 - id: action24
   title: Action24
-  epgId: Action24.gr
+  epgId: digea.action24.gr
   pipeline:
     - type: url
       param: https://action24.gr/live-streaming/
@@ -122,7 +134,7 @@
       param: qualities.auto.0.url
 - id: ertsports
   title: Ert Sports
-  epgId: EPT-HD.gr
+  epgId: ert.ertsports.gr
   pipeline:
     - type: url
       param: https://ert-live-bcbs15228.siliconweb.com/media/ert_sports/ert_sports.m3u8
