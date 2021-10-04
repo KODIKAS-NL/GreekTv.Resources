@@ -8,7 +8,7 @@
 import Foundation
 
 public class GreekTvResources {
-    public static var ymlUrl = {
-        Bundle.module.url(forResource: "channels", withExtension: "yaml")
-    }
+    public static var bundle = {
+        return Bundle.module
+    }()
 }
