@@ -1,3 +1,3 @@
-# GreekTvResources
+# GreekTv.Resources
 
-A description of this package.
+Repo for the channel list of my (private) GreekTv iOS app.
