@@ -24,7 +24,8 @@ let package = Package(
             resources: [
                 .copy("channels.json"),
                 .copy("channels.yaml"),
-                .copy("updated.json")
+                .copy("updated.json"),
+                .copy("config.yaml")
             ]
         )
     ])

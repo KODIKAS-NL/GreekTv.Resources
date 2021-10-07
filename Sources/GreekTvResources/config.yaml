@@ -1,0 +1,147 @@
+timestamp: 2021-10-05 15:56:00 -2
+epgsources:
+  - url: https://github.com/GreekTVApp/epg-greece-cyprus/releases/download/EPG/epg.xml
+    compression: none
+  - url: https://epgspot.com/rytec_epg/rytecGR_Basic.xz
+    compression: xz
+channels:
+  - id: ert1
+    title: Ert 1
+    epgId: EPT1.gr
+    pipeline:
+      - type: url
+        param: https://ert-live-bcbs15228.siliconweb.com/media/ert_1/ert_1.m3u8
+  - id: ert2
+    title: Ert 2
+    epgId: EPT2.gr
+    pipeline:
+      - type: url
+        param: https://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2.m3u8
+  - id: ert3
+    title: Ert 3
+    epgId: EPT3.gr
+    pipeline:
+      - type: url
+        param: https://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3.m3u8
+  - id: skai
+    title: Skai
+    epgId: digea.skai.gr
+    pipeline:
+      - type: url
+        param: https://skai-live.siliconweb.com/media/cambria4/index.m3u8
+  - id: alpha
+    title: Alpha
+    epgId: digea.alpha.gr
+    pipeline:
+      - type: url
+        param: https://www.alphatv.gr/webtv/live
+      - type: source
+      - type: regex
+        param: https:\/\/.*m3u8
+  - id: ant1
+    title: Ant1
+    epgId: digea.ant1.gr
+    pipeline:
+      - type: url
+        param: https://antennaamdnoenc.akamaized.net/ant1_akamai/abr/playlist.m3u8
+  - id: mega
+    title: mega
+    epgId: digea.mega.gr
+    pipeline:
+      - type: url
+        param: https://streamcdnm17-c98db5952cb54b358365984178fb898a.msvdn.net/live/S86713049/gonOwuUacAxM/playlist.m3u8
+  - id: ertworld
+    title: Ert World
+    epgId: ert.ertworld.gr
+    pipeline:
+      - type: url
+        param: https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
+  - id: star
+    title: Star
+    epgId: digea.star.gr
+    pipeline:
+      - type: url
+        param: https://www.star.gr/tv/live-stream/
+      - type: source
+      - type: regex
+        param: https:.*\.m3u8
+  - id: opentv
+    title: opentv
+    epgId: digea.openbeyond.gr
+    pipeline:
+      - type: url
+        param: https://liveopencloud.siliconweb.com/1/ZlRza2R6L2tFRnFJ/eWVLSlQx/hls/live/playlist.m3u8
+  - id: m.tv
+    title: MacedoniaTV
+    epgId: Macedonia.gr
+    pipeline:
+      - type: url
+        param: https://antennaamdnoenc.akamaized.net/maktv_akamai/abr/playlist.m3u8
+  - id: riksat
+    title: RikSat
+    epgId: RIKsat.cy
+    pipeline:
+      - type: url
+        param: https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
+  - id: bluesky
+    title: BlueSky
+    epgId: digea.bluesky.gr
+    pipeline:
+      - type: url
+        param: https://blueskytv.gr/live-tv/
+      - type: source
+      - type: css
+        param:
+          query: iframe
+          selector:
+            type: attribute
+            value: data-src
+      - type: regex
+        param: (?<=video)\/.*(?=\?)
+      - type: url
+        param: https://www.dailymotion.com/player/metadata/video
+      - type: source
+      - type: json
+        param: qualities.auto.0.url
+  - id: euronews
+    title: EuroNews
+    epgId: cyta.euronews.cy
+    pipeline:
+      - type: url
+        param: https://gr.euronews.com/api/watchlive.json
+      - type: source
+      - type: regex
+        param: (?<="videoId":").*?(?=")
+      - type: youtubeid
+  - id: kontra
+    title: Kontra
+    epgId: digea.kontra.gr
+    pipeline:
+      - type: url
+        param: https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
+  - id: action24
+    title: Action24
+    epgId: digea.action24.gr
+    pipeline:
+      - type: url
+        param: https://action24.gr/live-streaming/
+      - type: source
+      - type: css
+        param:
+          query: iframe
+          selector:
+            type: attribute
+            value: src
+      - type: regex
+        param: (?<=video)\/.*(?=\?)
+      - type: url
+        param: https://www.dailymotion.com/player/metadata/video
+      - type: source
+      - type: json
+        param: qualities.auto.0.url
+  - id: ertsports
+    title: Ert Sports
+    epgId: ert.ertsports.gr
+    pipeline:
+      - type: url
+        param: https://ert-live-bcbs15228.siliconweb.com/media/ert_sports/ert_sports.m3u8
