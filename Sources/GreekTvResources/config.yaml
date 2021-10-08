@@ -1,4 +1,4 @@
-timestamp: 2021-10-05 15:56:00 -2
+timestamp: 2021-10-05 15:56:00 +2
 epgsources:
   - url: https://github.com/GreekTVApp/epg-greece-cyprus/releases/download/EPG/epg.xml
     compression: none
