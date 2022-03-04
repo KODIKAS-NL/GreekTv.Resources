@@ -1,4 +1,4 @@
-timestamp: 2021-10-05 15:56:00 +2
+timestamp: 2022-03-04 20:51:00 +2
 epgsources:
   - url: https://github.com/GreekTVApp/epg-greece-cyprus/releases/download/EPG/epg.xml
     compression: none
@@ -108,11 +108,15 @@ channels:
     epgId: cyta.euronews.cy
     pipeline:
       - type: url
-        param: https://gr.euronews.com/api/watchlive.json
+        param: https://gr.euronews.com/api/geoblocking_live.json?countrycode=NL&playerName=jw&locale=el
       - type: source
-      - type: regex
-        param: (?<="videoId":").*?(?=")
-      - type: youtubeid
+      - type: json
+        param: url
+      - type: url
+        param: "https:"
+      - type: source
+      - type: json
+        param: primary
   - id: kontra
     title: Kontra
     epgId: digea.kontra.gr
