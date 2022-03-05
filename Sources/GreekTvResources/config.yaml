@@ -1,4 +1,4 @@
-timestamp: 2022-03-04 20:51:00 +2
+timestamp: 2022-03-05 12:30:00 +2
 epgsources:
   - url: https://github.com/GreekTVApp/epg-greece-cyprus/releases/download/EPG/epg.xml
     compression: none
@@ -43,7 +43,7 @@ channels:
     epgId: digea.ant1.gr
     pipeline:
       - type: url
-        param: https://antennaamdnoenc.akamaized.net/ant1_akamai/abr/playlist.m3u8
+        param: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/playlists/ant1.m3u8
   - id: mega
     title: mega
     epgId: digea.mega.gr
@@ -76,7 +76,7 @@ channels:
     epgId: Macedonia.gr
     pipeline:
       - type: url
-        param: https://antennaamdnoenc.akamaized.net/maktv_akamai/abr/playlist.m3u8
+        param: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/playlists/m.tv.m3u8
   - id: riksat
     title: RikSat
     epgId: RIKsat.cy
@@ -102,7 +102,7 @@ channels:
         param: https://www.dailymotion.com/player/metadata/video
       - type: source
       - type: json
-        param: qualities.auto.0.url
+        param: qualities.auto[0].url
   - id: euronews
     title: EuroNews
     epgId: cyta.euronews.cy
