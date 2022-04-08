@@ -1,4 +1,4 @@
-timestamp: 2022-03-05 12:30:00 +2
+timestamp: 2022-03-26 20:33:00 +2
 epgsources:
   - url: https://github.com/GreekTVApp/epg-greece-cyprus/releases/download/EPG/epg.xml
     compression: none
@@ -142,7 +142,7 @@ channels:
         param: https://www.dailymotion.com/player/metadata/video
       - type: source
       - type: json
-        param: qualities.auto.0.url
+        param: qualities.auto[0].url
   - id: ertsports
     title: Ert Sports
     epgId: ert.ertsports.gr
