@@ -1,6 +1,6 @@
-timestamp: 2022-03-26 20:33:00 +2
+timestamp: 2022-05-08 09:21:00 +2
 epgsources:
-  - url: https://github.com/GreekTVApp/epg-greece-cyprus/releases/download/EPG/epg.xml
+  - url: https://github.com/chrisliatas/greek-xmltv/releases/latest/download/grxmltv_nat_el.xml
     compression: none
   - url: https://epgspot.com/rytec_epg/rytecGR_Basic.xz
     compression: xz
@@ -25,13 +25,13 @@ channels:
         param: https://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3.m3u8
   - id: skai
     title: Skai
-    epgId: digea.skai.gr
+    epgId: 2
     pipeline:
       - type: url
         param: https://skai-live.siliconweb.com/media/cambria4/index.m3u8
   - id: alpha
     title: Alpha
-    epgId: digea.alpha.gr
+    epgId: 101
     pipeline:
       - type: url
         param: https://www.alphatv.gr/webtv/live
@@ -40,13 +40,13 @@ channels:
         param: https:\/\/.*m3u8
   - id: ant1
     title: Ant1
-    epgId: digea.ant1.gr
+    epgId: 103
     pipeline:
       - type: url
         param: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/playlists/ant1.m3u8
   - id: mega
     title: mega
-    epgId: digea.mega.gr
+    epgId: 6
     pipeline:
       - type: url
         param: https://streamcdnm17-c98db5952cb54b358365984178fb898a.msvdn.net/live/S86713049/gonOwuUacAxM/playlist.m3u8
@@ -58,7 +58,7 @@ channels:
         param: https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
   - id: star
     title: Star
-    epgId: digea.star.gr
+    epgId: 105
     pipeline:
       - type: url
         param: https://www.star.gr/tv/live-stream/
@@ -67,13 +67,13 @@ channels:
         param: https:.*\.m3u8
   - id: opentv
     title: opentv
-    epgId: digea.openbeyond.gr
+    epgId: 104
     pipeline:
       - type: url
         param: https://liveopencloud.siliconweb.com/1/ZlRza2R6L2tFRnFJ/eWVLSlQx/hls/live/playlist.m3u8
   - id: m.tv
     title: MacedoniaTV
-    epgId: Macedonia.gr
+    epgId: 106
     pipeline:
       - type: url
         param: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/playlists/m.tv.m3u8
@@ -85,7 +85,7 @@ channels:
         param: https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
   - id: bluesky
     title: BlueSky
-    epgId: digea.bluesky.gr
+    epgId: 70
     pipeline:
       - type: url
         param: https://blueskytv.gr/live-tv/
@@ -119,13 +119,13 @@ channels:
         param: primary
   - id: kontra
     title: Kontra
-    epgId: digea.kontra.gr
+    epgId: 76
     pipeline:
       - type: url
         param: https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
   - id: action24
     title: Action24
-    epgId: digea.action24.gr
+    epgId: 74
     pipeline:
       - type: url
         param: https://action24.gr/live-streaming/
