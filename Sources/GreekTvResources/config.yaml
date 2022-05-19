@@ -1,25 +1,23 @@
-timestamp: 2022-05-19 10:10:00 +2
+timestamp: 2022-05-19 11:00:00 +2
 epgsources:
-  - url: https://github.com/GreekTVApp/epg-greece-cyprus/releases/download/EPG/epg.xml
+  - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
-  - url: https://epgspot.com/rytec_epg/rytecGR_Basic.xz
-    compression: xz
 channels:
   - id: ert1
     title: Ert 1
-    epgId: EPT1.gr
+    epgId: ert.ert1.gr
     pipeline:
       - type: url
         param: https://ert-live-bcbs15228.siliconweb.com/media/ert_1/ert_1.m3u8
   - id: ert2
     title: Ert 2
-    epgId: EPT2.gr
+    epgId: ert.ert2.gr
     pipeline:
       - type: url
         param: https://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2.m3u8
   - id: ert3
     title: Ert 3
-    epgId: EPT3.gr
+    epgId: ert.ert3.gr
     pipeline:
       - type: url
         param: https://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3.m3u8
@@ -40,7 +38,7 @@ channels:
         param: https:\/\/.*m3u8
   - id: ant1
     title: Ant1
-    epgId: digea.alpha.gr
+    epgId: digea.ant1.gr
     pipeline:
       - type: url
         param: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/playlists/ant1.m3u8
