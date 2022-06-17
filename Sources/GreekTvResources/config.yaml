@@ -1,4 +1,4 @@
-timestamp: 2022-05-19 11:00:00 +2
+timestamp: 2022-06-17 21:48:00 +2
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -126,7 +126,7 @@ channels:
     epgId: digea.action24.gr
     pipeline:
       - type: url
-        param: https://action24.gr/live-streaming/
+        param: https://action24.gr/web-tv/live-tv/
       - type: source
       - type: css
         param:
