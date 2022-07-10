@@ -1,4 +1,4 @@
-timestamp: 2022-05-19 11:00:00 +2
+timestamp: 2022-07-10 09:45:00 +2
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -53,7 +53,7 @@ channels:
     epgId: ert.ertworld.gr
     pipeline:
       - type: url
-        param: https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
+        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert3/ert_ev3_main/mainabr/playlist.m3u8
   - id: star
     title: Star
     epgId: digea.star.gr
