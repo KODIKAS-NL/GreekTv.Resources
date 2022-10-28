@@ -1,35 +1,35 @@
-timestamp: 2022-09-29 14:02:00 +2
+timestamp: 2022-10-28 16:23:00 +2
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
 channels:
   - id: ert1
     title: Ert 1
-    epgId: ert.ert1.gr
+    epgId: ert1
     pipeline:
       - type: url
         param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert1/ert_ev1_main/mainabr/playlist_dvr.m3u8?proxy
   - id: ert2
     title: Ert 2
-    epgId: ert.ert2.gr
+    epgId: ert2
     pipeline:
       - type: url
         param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert2/ert_ev2_main/mainabr/playlist_dvr.m3u8?proxy
   - id: ert3
     title: Ert 3
-    epgId: ert.ert3.gr
+    epgId: ert3
     pipeline:
       - type: url
         param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert3/ert_ev3_main/mainabr/playlist_dvr.m3u8?proxy
   - id: skai
     title: Skai
-    epgId: digea.skai.gr
+    epgId: skai
     pipeline:
       - type: url
         param: https://skai-live.siliconweb.com/media/cambria4/index.m3u8
   - id: alpha
     title: Alpha
-    epgId: digea.alpha.gr
+    epgId: alpha
     pipeline:
       - type: url
         param: https://www.alphatv.gr/webtv/live
@@ -38,25 +38,25 @@ channels:
         param: https:\/\/.*m3u8
   - id: ant1
     title: Ant1
-    epgId: digea.ant1.gr
+    epgId: ant1
     pipeline:
       - type: url
         param: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/playlists/ant1.m3u8
   - id: mega
     title: mega
-    epgId: digea.mega.gr
+    epgId: mega
     pipeline:
       - type: url
         param: https://streamcdnh2-c98db5952cb54b358365984178fb898a.msvdn.net/live/S86713049/gonOwuUacAxM/playlist.m3u8
   - id: ertworld
     title: Ert World
-    epgId: ert.ertworld.gr
+    epgId: ertworld
     pipeline:
       - type: url
         param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ertworld/ert_world_main/mainabr/playlist_dvr.m3u8
   - id: star
     title: Star
-    epgId: digea.star.gr
+    epgId: star
     pipeline:
       - type: url
         param: https://www.star.gr/tv/live-stream/
@@ -65,19 +65,19 @@ channels:
         param: https:.*\.m3u8
   - id: opentv
     title: opentv
-    epgId: digea.openbeyond.gr
+    epgId: open
     pipeline:
       - type: url
         param: https://liveopencloud.siliconweb.com/1/ZlRza2R6L2tFRnFJ/eWVLSlQx/hls/live/playlist.m3u8
   - id: m.tv
     title: MacedoniaTV
-    epgId: digea.mtv.gr
+    epgId: mtv
     pipeline:
       - type: url
         param: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/playlists/m.tv.m3u8
   - id: ert_news
     title: Ert News
-    epgId: ert.ertnews.gr
+    epgId: ertnews
     pipeline:
       - type: url
         param: https://ert-live-bcbs15228.siliconweb.com/media/ert_news/ert_news.m3u8
@@ -89,7 +89,7 @@ channels:
         param: https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
   - id: bluesky
     title: BlueSky
-    epgId: digea.bluesky.gr
+    epgId: bluesky
     pipeline:
       - type: url
         param: https://blueskytv.gr/live-tv/
@@ -109,7 +109,7 @@ channels:
         param: qualities.auto[0].url
   - id: euronews
     title: EuroNews
-    epgId: cyta.euronews.cy
+    epgId: EuroNews
     pipeline:
       - type: url
         param: https://gr.euronews.com/api/geoblocking_live.json?countrycode=NL&playerName=jw&locale=el
@@ -123,13 +123,13 @@ channels:
         param: primary
   - id: kontra
     title: Kontra
-    epgId: digea.kontra.gr
+    epgId: kontra
     pipeline:
       - type: url
         param: https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
   - id: action24
     title: Action24
-    epgId: digea.action24.gr
+    epgId: action24
     pipeline:
       - type: url
         param: https://action24.gr/web-tv/live-tv/
@@ -149,7 +149,7 @@ channels:
         param: qualities.auto[0].url
   - id: ertsports
     title: Ert Sports
-    epgId: ert.ertsports.gr
+    epgId: ertsports
     pipeline:
       - type: url
         param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/sports1/ert_sports1_main/mainabr/playlist.m3u8?proxy
