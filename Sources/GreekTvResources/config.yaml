@@ -1,4 +1,4 @@
-timestamp: 2022-10-28 16:23:00 +2
+timestamp: 2022-10-28 16:57:00 +2
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -41,7 +41,7 @@ channels:
     epgId: ant1
     pipeline:
       - type: url
-        param: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/playlists/ant1.m3u8
+        param: http://95.107.132.106/out/u/atsykmssuyrsyhth.m3u8
   - id: mega
     title: mega
     epgId: mega
