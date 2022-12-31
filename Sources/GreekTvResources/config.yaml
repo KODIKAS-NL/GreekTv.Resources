@@ -1,6 +1,6 @@
-timestamp: 2022-10-28 16:57:00 +2
+timestamp: 2022-12-31 11:39:00 +1
 epgsources:
-  - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
+  - url: https://github.com/GreekTVApp/epg-greece-cyprus/releases/download/EPG/epg.xml
     compression: none
 channels:
   - id: ert1
