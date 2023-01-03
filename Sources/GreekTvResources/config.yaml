@@ -1,6 +1,6 @@
-timestamp: 2022-12-31 11:39:00 +1
+timestamp: 2023-01-03 19:56:00 +1
 epgsources:
-  - url: https://github.com/GreekTVApp/epg-greece-cyprus/releases/download/EPG/epg.xml
+  - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
 channels:
   - id: ert1
@@ -80,7 +80,7 @@ channels:
     epgId: ertnews
     pipeline:
       - type: url
-        param: https://ert-live-bcbs15228.siliconweb.com/media/ert_news/ert_news.m3u8
+        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/news/ert_news_main/mainabr/playlist_dvr.m3u8
   - id: riksat
     title: RikSat
     epgId: RIKsat.cy
