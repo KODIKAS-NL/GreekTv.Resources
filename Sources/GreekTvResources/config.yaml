@@ -1,4 +1,4 @@
-timestamp: 2023-01-03 20:46:00 +1
+timestamp: 2023-01-03 21:30:00 +1
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -8,19 +8,19 @@ channels:
     epgId: ert1
     pipeline:
       - type: url
-        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert1/ert_ev1_main/mainabr/playlist_dvr.m3u8?proxy
+        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert1/ert_ev1_main/mainabr/playlist_dvr.m3u8
   - id: ert2
     title: Ert 2
     epgId: ert2
     pipeline:
       - type: url
-        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert2/ert_ev2_main/mainabr/playlist_dvr.m3u8?proxy
+        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert2/ert_ev2_main/mainabr/playlist_dvr.m3u8
   - id: ert3
     title: Ert 3
     epgId: ert3
     pipeline:
       - type: url
-        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert3/ert_ev3_main/mainabr/playlist_dvr.m3u8?proxy
+        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert3/ert_ev3_main/mainabr/playlist_dvr.m3u8
   - id: skai
     title: Skai
     epgId: skai
@@ -134,4 +134,4 @@ channels:
     epgId: ertsports
     pipeline:
       - type: url
-        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/sports1/ert_sports1_main/mainabr/playlist.m3u8?proxy
+        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/sports1/ert_sports1_main/mainabr/playlist.m3u8
