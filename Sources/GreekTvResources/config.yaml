@@ -1,4 +1,4 @@
-timestamp: 2023-01-03 21:30:00 +1
+timestamp: 2023-06-13 16:26:00 +2
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -41,7 +41,7 @@ channels:
     epgId: ant1
     pipeline:
       - type: url
-        param: http://95.107.132.106/out/u/atsykmssuyrsyhth.m3u8
+        param: http://d1nfykbwa3n98t.cloudfront.net/out/v1/6e5667da5a6843899a337dea72adb61b/antenna.m3u8
   - id: mega
     title: mega
     epgId: mega
@@ -74,7 +74,7 @@ channels:
     epgId: mtv
     pipeline:
       - type: url
-        param: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/playlists/m.tv.m3u8
+        param: http://dlm34ll53zqql.cloudfront.net/out/v1/d4177931deff4c7ba994b8126d153d9f/maktv.m3u8
   - id: ert_news
     title: Ert News
     epgId: ertnews
