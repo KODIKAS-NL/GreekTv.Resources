@@ -1,4 +1,4 @@
-timestamp: 2023-07-15 15:39:00 +1
+timestamp: 2023-07-30 10:45:00 +1
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -129,9 +129,3 @@ channels:
     pipeline:
       - type: url
         param: https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
-  - id: ertsports
-    title: Ert Sports
-    epgId: ertsports
-    pipeline:
-      - type: url
-        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/sports1/ert_sports1_main/mainabr/playlist.m3u8
