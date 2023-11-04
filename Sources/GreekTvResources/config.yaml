@@ -1,4 +1,4 @@
-timestamp: 2023-07-30 10:45:00 +1
+timestamp: 2023-11-04 16:50:00 +1
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -96,17 +96,12 @@ channels:
       - type: source
       - type: css
         param:
-          query: iframe
+          query: ".svpPlayer"
           selector:
             type: attribute
-            value: src
-      - type: regex
-        param: (?<=video)\/.*(?=\?)
-      - type: url
-        param: https://www.dailymotion.com/player/metadata/video
-      - type: source
+            value: data-props
       - type: json
-        param: qualities.auto[0].url
+        param: "data.src"
   - id: euronews
     title: EuroNews
     epgId: EuroNews
