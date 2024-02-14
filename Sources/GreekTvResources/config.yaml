@@ -8,19 +8,19 @@ channels:
     epgId: ert1
     pipeline:
       - type: url
-        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert1/ert_ev1_main/mainabr/playlist_dvr.m3u8
+        param: https://telmacosa.s.llnwi.net/osY/ERT/default/index.m3u8
   - id: ert2
     title: Ert 2
     epgId: ert2
     pipeline:
       - type: url
-        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert2/ert_ev2_main/mainabr/playlist_dvr.m3u8
+        param: https://telmacosa.s.llnwi.net/osY/ERT2/default/index.m3u8
   - id: ert3
     title: Ert 3
     epgId: ert3
     pipeline:
       - type: url
-        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ert3/ert_ev3_main/mainabr/playlist_dvr.m3u8
+        param: https://telmacosa.s.llnwi.net/osY/ERT3/default/index.m3u8
   - id: skai
     title: Skai
     epgId: skai
@@ -53,7 +53,7 @@ channels:
     epgId: ertworld
     pipeline:
       - type: url
-        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/ertworld/ert_world_main/mainabr/playlist_dvr.m3u8
+        param: https://telmacosa.s.llnwi.net/ertlive/ertworld/default/index.m3u8
   - id: star
     title: Star
     epgId: star
@@ -80,7 +80,7 @@ channels:
     epgId: ertnews
     pipeline:
       - type: url
-        param: https://cbd537474fbad4634b64787657ff6456.msvdn.net/news/ert_news_main/mainabr/playlist_dvr.m3u8
+        param: https://telmacosa.s.llnwi.net/osO/ERTNews/default/index.m3u8
   - id: riksat
     title: RikSat
     epgId: RIKsat.cy
