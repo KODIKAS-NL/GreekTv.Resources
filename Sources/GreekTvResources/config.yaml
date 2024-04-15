@@ -1,4 +1,4 @@
-timestamp: 2024-04-15 19:30:00 +2
+timestamp: 2024-04-15 19:40:00 +2
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -8,19 +8,19 @@ channels:
     epgId: ert1
     pipeline:
       - type: url
-        param: https://ertflix.s.llnwi.net/ertlive/ERT/default/index.m3u8
+        param: https://ertflix.s.llnwi.net/ertlive/ert1/default/index.m3u8
   - id: ert2
     title: Ert 2
     epgId: ert2
     pipeline:
       - type: url
-        param: https://ertflix.s.llnwi.net/ertlive/ERT2/default/index.m3u8
+        param: https://ertflix.s.llnwi.net/ertlive/ert2/default/index.m3u8
   - id: ert3
     title: Ert 3
     epgId: ert3
     pipeline:
       - type: url
-        param: https://ertflix.s.llnwi.net/ertlive/ERT3/default/index.m3u8
+        param: https://ertflix.s.llnwi.net/ertlive/ert3/default/index.m3u8
   - id: skai
     title: Skai
     epgId: skai
