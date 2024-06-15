@@ -8,7 +8,7 @@ channels:
     epgId: ert1
     pipeline:
       - type: url
-        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0MS9kZWZhdWx0L2luZGV4Lm0zdTg=.m3u8
+        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0MS9lbmNkZWYvaW5kZXgubTN1OA==.m3u8
   - id: ert2
     title: Ert 2
     epgId: ert2
