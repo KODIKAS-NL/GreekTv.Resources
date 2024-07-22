@@ -1,4 +1,4 @@
-timestamp: 2024-07-22 21:56:00 +2
+timestamp: 2024-07-22 22:15:00 +2
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -107,17 +107,10 @@ channels:
     epgId: EuroNews
     pipeline:
       - type: url
-        param: https://gr.euronews.com/live
+        param: https://gr.euronews.com/api/live/data?locale=el
       - type: source
-      - type: css
-        param:
-          query: ".u-aspect-ratio-16x9"
-          selector:
-            type: attribute
-            value: data-video
       - type: json
-        param: videoId
-      - type: youtubeid
+        param: "videoPrimaryUrl"
   - id: kontra
     title: Kontra
     epgId: kontra
