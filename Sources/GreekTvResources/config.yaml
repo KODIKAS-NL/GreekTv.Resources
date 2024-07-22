@@ -8,7 +8,7 @@ channels:
     epgId: ert1
     pipeline:
       - type: url
-        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0MS9lbmNkZWYvaW5kZXgubTN1OA==.m3u8
+        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0MS9jbHJkZWYyNDYxMy9pbmRleC5tM3U4.m3u8
   - id: ert2
     title: Ert 2
     epgId: ert2
@@ -20,7 +20,7 @@ channels:
     epgId: ert3
     pipeline:
       - type: url
-        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0My9kZWZhdWx0L2luZGV4Lm0zdTg=.m3u8
+        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0My9jbHJkZWYyNDYyMC9pbmRleC5tM3U4.m3u8
   - id: skai
     title: Skai
     epgId: skai
@@ -80,7 +80,7 @@ channels:
     epgId: ertnews
     pipeline:
       - type: url
-        param: https://ertflix.s.llnwi.net/ertlive/ertnews/default/index.m3u8
+        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0bmV3cy9kZWZhdWx0L2luZGV4Lm0zdTg=.m3u8
   - id: riksat
     title: RikSat
     epgId: RIKsat.cy
