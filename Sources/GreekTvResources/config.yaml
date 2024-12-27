@@ -1,4 +1,4 @@
-timestamp: 2024-07-22 22:15:00 +2
+timestamp: 2024-12-27 15:30:00 +2
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -41,7 +41,7 @@ channels:
     epgId: ant1
     pipeline:
       - type: url
-        param: https://d1nfykbwa3n98t.cloudfront.net/out/v1/6e5667da5a6843899a337dea72adb61b/antenna.m3u8
+        param: http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
   - id: mega
     title: mega
     epgId: mega
