@@ -8,19 +8,19 @@ channels:
     epgId: ert1
     pipeline:
       - type: url
-        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0MS9jbHJkZWYyNDYxMy9pbmRleC5tM3U4.m3u8
+        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0MS9jbHJkZWYyNDcyM2IvaW5kZXgubTN1OA==.m3u8
   - id: ert2
     title: Ert 2
     epgId: ert2
     pipeline:
       - type: url
-        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0Mi9kZWZhdWx0L2luZGV4Lm0zdTg=.m3u8
+        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0Mi9jbHJkZWYyNDgyOHovaW5kZXgubTN1OA==.m3u8
   - id: ert3
     title: Ert 3
     epgId: ert3
     pipeline:
       - type: url
-        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0My9jbHJkZWYyNDYyMC9pbmRleC5tM3U4.m3u8
+        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LnMubGxud2kubmV0L2VydGxpdmUvZXJ0My9jbHJkZWYyNDgyOG4vaW5kZXgubTN1OA==.m3u8
   - id: skai
     title: Skai
     epgId: skai
