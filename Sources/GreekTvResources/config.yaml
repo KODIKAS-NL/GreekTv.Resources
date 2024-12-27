@@ -1,4 +1,4 @@
-timestamp: 2024-12-27 15:30:00 +2
+timestamp: 2024-12-27 20:23:00 +2
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
