@@ -1,4 +1,4 @@
-timestamp: 2025-01-22 14:15:00 +2
+timestamp: 2025-02-03 13:58:00 +1
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -26,7 +26,7 @@ channels:
     epgId: skai
     pipeline:
       - type: url
-        param: https://skai-live-back.siliconweb.com/media/cambria4/index.m3u8
+        param: https://skai-live.siliconweb.com/media/cambria4/index.m3u8
   - id: alpha
     title: Alpha
     epgId: alpha
