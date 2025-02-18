@@ -1,4 +1,4 @@
-timestamp: 2025-02-03 13:58:00 +1
+timestamp: 2025-02-18 16:57:00 +1
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -41,13 +41,13 @@ channels:
     epgId: ant1
     pipeline:
       - type: url
-        param: http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
+        param: https://cdn1.smart-tv-data.com/live/ant1/playlist.m3u8
   - id: mega
     title: mega
     epgId: mega
     pipeline:
       - type: url
-        param: https://streamcdnh2-c98db5952cb54b358365984178fb898a.msvdn.net/live/S86713049/gonOwuUacAxM/playlist.m3u8
+        param: https://streamcdng16-c98db5952cb54b358365984178fb898a.msvdn.net/live/S14373792/aGr5KG7RcZ9a/playlist.m3u8
   - id: ertworld
     title: Ert World
     epgId: ertworld
