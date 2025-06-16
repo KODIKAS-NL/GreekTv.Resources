@@ -1,4 +1,4 @@
-timestamp: 2025-02-18 16:57:00 +1
+timestamp: 2025-06-16 18:15:00 +2
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -41,7 +41,7 @@ channels:
     epgId: ant1
     pipeline:
       - type: url
-        param: https://cdn1.smart-tv-data.com/live/ant1/playlist.m3u8
+        param: https://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
   - id: mega
     title: mega
     epgId: mega
@@ -68,7 +68,7 @@ channels:
     epgId: open
     pipeline:
       - type: url
-        param: https://liveopencloud.siliconweb.com/1/ZlRza2R6L2tFRnFJ/eWVLSlQx/hls/live/playlist.m3u8
+        param: https://liveopen.siliconweb.com/openTvLive/liveopen/playlist.m3u8
   - id: m.tv
     title: MacedoniaTV
     epgId: mtv
