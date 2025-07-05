@@ -1,4 +1,4 @@
-timestamp: 2025-07-05 13:57:00 +1
+timestamp: 2025-07-05 15:15:00 +1
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -6,30 +6,40 @@ channels:
   - id: ert1
     title: Ert 1
     epgId: ert1
+    order: 1
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/ert1.png
     pipeline:
       - type: url
         param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LmFrYW1haXplZC5uZXQvZXJ0bGl2ZS9lcnQxL2NscmRlZjI0NzIzYi9pbmRleC5tM3U4.m3u8
   - id: ert2
     title: Ert 2
     epgId: ert2
+    order: 2
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/ert2.png
     pipeline:
       - type: url
         param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LmFrYW1haXplZC5uZXQvZXJ0bGl2ZS9lcnQyL2NscmRlZjI0ODI4ei9pbmRleC5tM3U4.m3u8
   - id: ert3
     title: Ert 3
     epgId: ert3
+    order: 3
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/ert3.png
     pipeline:
       - type: url
         param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LmFrYW1haXplZC5uZXQvZXJ0bGl2ZS9lcnQzL2NscmRlZjI0ODI4bi9pbmRleC5tM3U4.m3u8
   - id: skai
     title: Skai
     epgId: skai
+    order: 4
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/skai.png
     pipeline:
       - type: url
         param: https://skai-live.siliconweb.com/media/cambria4/index.m3u8
   - id: alpha
     title: Alpha
     epgId: alpha
+    order: 5
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/alpha.png
     pipeline:
       - type: url
         param: https://www.alphatv.gr/webtv/live
@@ -39,24 +49,32 @@ channels:
   - id: ant1
     title: Ant1
     epgId: ant1
+    order: 6
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/ant1.png
     pipeline:
       - type: url
         param: https://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
   - id: mega
     title: mega
     epgId: mega
+    order: 7
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/mega_outline.png
     pipeline:
       - type: url
         param: https://streamcdng16-c98db5952cb54b358365984178fb898a.msvdn.net/live/S14373792/aGr5KG7RcZ9a/playlist.m3u8
   - id: ertworld
     title: Ert World
     epgId: ertworld
+    order: 8
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/ertworld.png
     pipeline:
       - type: url
         param: https://ertflix.akamaized.net/ertlive/ertworld/default/index.m3u8
   - id: star
     title: Star
     epgId: star
+    order: 9
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/star.jpg
     pipeline:
       - type: url
         param: https://www.star.gr/tv/live-stream/
@@ -66,30 +84,40 @@ channels:
   - id: opentv
     title: opentv
     epgId: open
+    order: 10
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/open_outline.png
     pipeline:
       - type: url
         param: https://liveopen.siliconweb.com/openTvLive/liveopen/playlist.m3u8
   - id: m.tv
     title: MacedoniaTV
     epgId: mtv
+    order: 11
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/mak.png
     pipeline:
       - type: url
         param: https://raw.githubusercontent.com/jimgate07/grtv/refs/heads/master/Metadoseis/maktv.m3u8
   - id: ert_news
     title: Ert News
     epgId: ertnews
+    order: 12
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/ert_news.png
     pipeline:
       - type: url
         param: https://ertflix.akamaized.net/ertlive/ertnews/default/index.m3u8
   - id: riksat
     title: RikSat
     epgId: RIKsat.cy
+    order: 13
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/riksat.png
     pipeline:
       - type: url
         param: https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
   - id: bluesky
     title: BlueSky
     epgId: bluesky
+    order: 14
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/bluesky.png
     pipeline:
       - type: url
         param: https://blueskytv.gr/live-tv/
@@ -105,6 +133,8 @@ channels:
   - id: euronews
     title: EuroNews
     epgId: EuroNews
+    order: 15
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/euronews.png
     pipeline:
       - type: url
         param: https://gr.euronews.com/live
@@ -121,6 +151,8 @@ channels:
   - id: kontra
     title: Kontra
     epgId: kontra
+    order: 16
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/kontra.png
     pipeline:
       - type: url
         param: https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
