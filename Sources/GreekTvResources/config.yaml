@@ -1,4 +1,4 @@
-timestamp: 2025-07-05 15:15:00 +1
+timestamp: 2025-07-07 15:11:00 +1
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -61,7 +61,7 @@ channels:
     logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/mega_outline.png
     pipeline:
       - type: url
-        param: https://streamcdng16-c98db5952cb54b358365984178fb898a.msvdn.net/live/S14373792/aGr5KG7RcZ9a/playlist.m3u8
+        param: https://raw.githubusercontent.com/jimgate07/grtv/refs/heads/master/Metadoseis/mega.m3u8
   - id: ertworld
     title: Ert World
     epgId: ertworld
