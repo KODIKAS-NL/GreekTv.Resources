@@ -1,4 +1,4 @@
-timestamp: 2025-07-07 15:30:00 +1
+timestamp: 2025-07-07 15:35:00 +1
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -10,7 +10,7 @@ channels:
     logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/ert1.png
     pipeline:
       - type: url
-        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LmFrYW1haXplZC5uZXQvZXJ0bGl2ZS9lcnQxL2NscmRlZjI0NzIzYi9pbmRleC5tM3U4.m3u8
+        param: http://195.226.218.163/vid/ert1/playlist.m3u8
   - id: ert2
     title: Ert 2
     epgId: ert2
