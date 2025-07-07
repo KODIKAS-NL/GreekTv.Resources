@@ -1,4 +1,4 @@
-timestamp: 2025-07-07 15:11:00 +1
+timestamp: 2025-07-07 15:30:00 +1
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -53,7 +53,7 @@ channels:
     logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/ant1.png
     pipeline:
       - type: url
-        param: https://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
+        param: https://mcdn.antennaplus.gr/live/media0/Ant1/HLS/Ant1.m3u8
   - id: mega
     title: mega
     epgId: mega
@@ -113,10 +113,26 @@ channels:
     pipeline:
       - type: url
         param: https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
+  - id: rik1
+    title: Rik1
+    epgId: rik1
+    order: 14
+    logoUrl: https://static.wikia.nocookie.net/logopedia/images/e/e5/Logo_RIK_1_2017.svg/revision/latest?cb=20210425103133
+    pipeline:
+      - type: url
+        param: http://31.121.110.30:4000/play/a023/index.m3u8
+  - id: rik2
+    title: Rik2
+    epgId: rik2
+    order: 15
+    logoUrl: https://static.wikia.nocookie.net/logopedia/images/1/14/Logo_RIK_2_2017.svg/revision/latest?cb=20230513120548
+    pipeline:
+      - type: url
+        param: http://31.121.110.30:4000/play/a024/index.m3u8
   - id: bluesky
     title: BlueSky
     epgId: bluesky
-    order: 14
+    order: 16
     logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/bluesky.png
     pipeline:
       - type: url
@@ -133,7 +149,7 @@ channels:
   - id: euronews
     title: EuroNews
     epgId: EuroNews
-    order: 15
+    order: 17
     logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/euronews.png
     pipeline:
       - type: url
@@ -151,7 +167,7 @@ channels:
   - id: kontra
     title: Kontra
     epgId: kontra
-    order: 16
+    order: 18
     logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/kontra.png
     pipeline:
       - type: url
