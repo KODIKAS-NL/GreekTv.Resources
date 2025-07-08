@@ -1,4 +1,4 @@
-timestamp: 2025-07-07 15:35:00 +1
+timestamp: 2025-07-08 19:35:00 +1
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -96,7 +96,7 @@ channels:
     logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/mak.png
     pipeline:
       - type: url
-        param: https://raw.githubusercontent.com/jimgate07/grtv/refs/heads/master/Metadoseis/maktv.m3u8
+        param: https://mcdn.antennaplus.gr/live/media0/MAK/HLS/MAK.m3u8
   - id: ert_news
     title: Ert News
     epgId: ertnews
