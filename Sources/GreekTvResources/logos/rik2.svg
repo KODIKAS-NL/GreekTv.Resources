@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Calque_1"
+   data-name="Calque 1"
+   viewBox="0 0 161.82 55.86"
+   version="1.1"
+   sodipodi:docname="Logo RIK 2 2017.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="5.366006"
+     inkscape:cx="132.4076"
+     inkscape:cy="29.444619"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Calque_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#435259;}.cls-2{fill:#ea09fd;}.cls-3{fill:#fff;}</style>
+  </defs>
+  <path
+     class="cls-1"
+     d="M15.63,2.05v.74a14.82,14.82,0,0,0,0,22.44V51.05a3.82,3.82,0,0,1-3.81,3.81H4.68A3.82,3.82,0,0,1,.87,51.05v-49Z"
+     id="path6" />
+  <path
+     class="cls-1"
+     d="M39.93,2.05H54.69a0,0,0,0,1,0,0V51a3.81,3.81,0,0,1-3.81,3.81H43.74A3.81,3.81,0,0,1,39.93,51v-49A0,0,0,0,1,39.93,2.05Z"
+     id="path8" />
+  <path
+     class="cls-1"
+     d="M100.43,50a3.32,3.32,0,0,1-2.91,4.91H87.61a3.28,3.28,0,0,1-2.94-1.81L73.05,30.49V51.05a3.82,3.82,0,0,1-3.81,3.81H62.1a3.82,3.82,0,0,1-3.81-3.81v-49H73.05V23.54L84,2.05h17.52L89.63,23.8l-1,1.89L87.88,27l.71,1.32v0l.76,1.39.28.52Z"
+     id="path10" />
+  <path
+     class="cls-2"
+     d="M38.64,14a12.7,12.7,0,0,1-.89,4.72A13,13,0,1,1,38,9.87,13.16,13.16,0,0,1,38.64,14Z"
+     id="path12"
+     style="fill:#da1681;fill-opacity:1" />
+  <circle
+     class="cls-2"
+     cx="134.55"
+     cy="28.46"
+     r="26.4"
+     id="circle14"
+     style="fill:#da1681;fill-opacity:1" />
+  <path
+     class="cls-3"
+     d="M122.41,41.78l14.24-18.72a11.37,11.37,0,0,0,1.5-2.58,6.76,6.76,0,0,0,.52-2.47V18a3.2,3.2,0,0,0-1.08-2.59,4.64,4.64,0,0,0-3.08-.92,4.14,4.14,0,0,0-3.14,1.27,6.13,6.13,0,0,0-1.46,3.61v0h-8v0a15.24,15.24,0,0,1,1.86-6.67,10.91,10.91,0,0,1,4.36-4.27,13.15,13.15,0,0,1,6.33-1.47,15.65,15.65,0,0,1,6.63,1.27,9.22,9.22,0,0,1,4.2,3.7,11.21,11.21,0,0,1,1.44,5.84v0a16.82,16.82,0,0,1-1,5.61,17.88,17.88,0,0,1-2.76,5L132.77,41.29H147v7.53H122.41Z"
+     id="path16" />
+</svg>
