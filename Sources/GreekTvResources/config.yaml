@@ -1,4 +1,4 @@
-timestamp: 2025-07-08 19:35:00 +1
+timestamp: 2025-07-12 16:50:00 +1
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -117,7 +117,7 @@ channels:
     title: Rik1
     epgId: rik1
     order: 14
-    logoUrl: https://static.wikia.nocookie.net/logopedia/images/e/e5/Logo_RIK_1_2017.svg/revision/latest?cb=20210425103133
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/rik1.png
     pipeline:
       - type: url
         param: http://31.121.110.30:4000/play/a023/index.m3u8
@@ -125,7 +125,7 @@ channels:
     title: Rik2
     epgId: rik2
     order: 15
-    logoUrl: https://static.wikia.nocookie.net/logopedia/images/1/14/Logo_RIK_2_2017.svg/revision/latest?cb=20230513120548
+    logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/rik2.png
     pipeline:
       - type: url
         param: http://31.121.110.30:4000/play/a024/index.m3u8
