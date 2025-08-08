@@ -1,4 +1,4 @@
-timestamp: 2025-07-12 16:50:00 +1
+timestamp: 2025-08-08 13:50:00 +1
 epgsources:
   - url: https://github.com/KODIKAS-NL/GreekTv-epg/releases/download/EPG/epg.xml
     compression: none
@@ -18,7 +18,7 @@ channels:
     logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/ert2.png
     pipeline:
       - type: url
-        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LmFrYW1haXplZC5uZXQvZXJ0bGl2ZS9lcnQyL2NscmRlZjI0ODI4ei9pbmRleC5tM3U4.m3u8
+        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LWdyZWVjZS5zaWxpY29ud2ViLmNvbS9tcGVndHMvNjE4NjE4XzIzNDE1NTcvbWFzdGVyX21wZWd0cy5tM3U4.m3u8
   - id: ert3
     title: Ert 3
     epgId: ert3
@@ -26,7 +26,7 @@ channels:
     logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/ert3.png
     pipeline:
       - type: url
-        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LmFrYW1haXplZC5uZXQvZXJ0bGl2ZS9lcnQzL2NscmRlZjI0ODI4bi9pbmRleC5tM3U4.m3u8
+        param: http://192.168.1.52:10808/aHR0cHM6Ly9lcnRmbGl4LWdyZWVjZS5zaWxpY29ud2ViLmNvbS9tcGVndHMvNjE4NjE4XzIzNDE1NjAvbWFzdGVyX21wZWd0cy5tM3U4.m3u8
   - id: skai
     title: Skai
     epgId: skai
