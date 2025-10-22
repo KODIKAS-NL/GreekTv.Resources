@@ -10,7 +10,7 @@ channels:
     logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/ert1.png
     pipeline:
       - type: url
-        param: http://195.226.218.163/vid/ert1/playlist.m3u8
+        param: http://192.168.1.52:10808/aHR0cHM6Ly9zcGFyazMuc21hcnQtdHYtZGF0YS5jb20vZXJ0MUhEL2VydDFIRC92aWRlby5tM3U4.m3u8
   - id: ert2
     title: Ert 2
     epgId: ert2
