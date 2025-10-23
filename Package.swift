@@ -22,9 +22,6 @@ let package = Package(
             name: "GreekTvResources",
             dependencies: [],
             resources: [
-                .copy("channels.json"),
-                .copy("channels.yaml"),
-                .copy("updated.json"),
                 .copy("config.yaml")
             ]
         )

@@ -69,7 +69,7 @@ channels:
     logoUrl: https://raw.githubusercontent.com/KODIKAS-NL/GreekTv.Resources/main/Sources/GreekTvResources/logos/ertworld.png
     pipeline:
       - type: url
-        param: https://ertflix.akamaized.net/ertlive/ertworld/default/index.m3u8
+        param: https://ertflix-ertworld.siliconweb.com/mpegts/618618_3479286/master_mpegts.m3u8
   - id: star
     title: Star
     epgId: star
